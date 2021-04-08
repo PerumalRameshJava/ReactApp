@@ -1,0 +1,62 @@
+.inputBoxStyle {
+}
+
+.customPasswordEye {
+  position: absolute;
+  display: flex;
+  margin-left: 345px;
+  margin-top: -25px;
+}
+
+.eyeanime {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+}
+.eyeanime:active {
+  animation-name: spin;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.button {
+  background-color: mediumseagreen !important;
+}
+
+.signUpLink {
+  height: 0px;
+  display: inline-block;
+  margin-top: 30px;
+  color: black;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+@media screen and (min-width: 768px) {
+  .inputBoxStyle {
+    width: 50vh !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .inputBoxStyle {
+    width: 50vh !important;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .inputBoxStyle {
+    width: 30vh !important;
+  }
+}
